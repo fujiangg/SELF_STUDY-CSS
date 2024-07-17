@@ -7,3 +7,12 @@ h2.border {
     border: 2px solid tomato;
     text-align: center;
 }
+h3.ColorValues1 {
+    background-color: rgb(255, 99, 71);
+    text-align: center;
+    color: white;
+}
+h3.ColorValues2 {
+    background-color: rgba(255, 99, 71, 0.5);
+    text-align: center;
+}
