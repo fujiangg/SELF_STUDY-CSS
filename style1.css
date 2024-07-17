@@ -1,3 +1,7 @@
+/* CSS Universal Selector */
+* {
+    background-color: gainsboro;
+}
 h1 {
     text-align: center;
     color: red;
