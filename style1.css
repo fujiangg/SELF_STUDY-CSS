@@ -18,3 +18,8 @@ p.h3 {
     text-align: center;
     color: blue;
 }
+/* CSS Grouping Selector */
+h1, #heading2, .h3, p.h3 {
+    text-align: left;
+    color: black;
+}
