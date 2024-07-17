@@ -3,3 +3,7 @@ h1 {
     background-color: dodgerblue;
     color: white;
 }
+h2.border {
+    border: 2px solid tomato;
+    text-align: center;
+}
