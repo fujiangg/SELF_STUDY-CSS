@@ -46,9 +46,18 @@ p.two {
 }
 p.three {
     border-style: dotted;
-    border-width: 2px;
+    border-width: 2px 5px;
 }
 p.four {
     border-style: dotted;
     border-width: thick;
+}
+/* Border Color */
+p.allSide {
+    border-style: solid;
+    border-color: red;
+}
+p.customAllSide {
+    border-style: solid;
+    border-color: red green blue yellow;
 }
