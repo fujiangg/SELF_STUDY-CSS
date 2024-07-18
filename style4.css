@@ -10,3 +10,7 @@ p.margins {
     border: 2px solid blue;
     margin: 25px 50px 75px 100px;
 }
+p.paddings {
+    padding: 25px 50px 75px 100px;
+    border: 2px solid green;
+}
