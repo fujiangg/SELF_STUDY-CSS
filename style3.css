@@ -61,3 +61,7 @@ p.customAllSide {
     border-style: solid;
     border-color: red green blue yellow;
 }
+/* Border Shorthand */
+p.borderShorthand {
+    border: 3px solid purple;
+}
