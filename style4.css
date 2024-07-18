@@ -1,8 +1,10 @@
 h1 {
     text-align: center;
+    margin: 0 0 50px 0;
 }
 h2 {
     border: 5px double;
+    margin: 20px 0 0 0;
 }
 p.margins {
     border: 2px solid blue;
