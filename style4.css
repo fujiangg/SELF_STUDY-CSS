@@ -1,0 +1,10 @@
+h1 {
+    text-align: center;
+}
+h2 {
+    border: 5px double;
+}
+p.margins {
+    border: 2px solid blue;
+    margin: 25px 50px 75px 100px;
+}
