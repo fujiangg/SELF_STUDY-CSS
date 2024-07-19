@@ -68,7 +68,7 @@ p.four {
     outline-style: dotted;
     outline-width: thick;
 }
-/* Border Color */
+/* Border Color & Outline Color*/
 p.allSide {
     border-style: solid;
     border-color: red;
@@ -81,7 +81,8 @@ p.customAllSide {
     border-style: solid;
     border-color: red green blue yellow;
 }
-/* Border Shorthand */
+/* Border & Outline Shorthand */
 p.borderShorthand {
     border: 3px solid purple;
+    outline: 3px solid red;
 }
