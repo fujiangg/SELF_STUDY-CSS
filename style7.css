@@ -5,3 +5,10 @@ body {
 h1 {
     text-align: center;
 }
+h2.right {
+    text-align: right;
+}
+p.direction {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
