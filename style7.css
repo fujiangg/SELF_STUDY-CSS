@@ -39,3 +39,6 @@ p.overline_underline {
 p.shorthand {
     text-decoration: overline underline red solid 2px;
 }
+a {
+    text-decoration: none;
+}
