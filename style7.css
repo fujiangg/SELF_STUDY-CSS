@@ -51,3 +51,18 @@ p.lowercase {
 p.capitalize {
     text-transform: capitalize;
 }
+p.indent {
+    text-indent: 50px;
+}
+p.letterSpacing {
+    letter-spacing: 5px;
+}
+p.lineHeight {
+    line-height: 1.8;
+}
+p.wordSpacing {
+    word-spacing: 10px;
+}
+p.whiteSpace {
+    white-space: nowrap;
+}
