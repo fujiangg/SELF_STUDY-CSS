@@ -66,3 +66,12 @@ p.wordSpacing {
 p.whiteSpace {
     white-space: nowrap;
 }
+h3.one {
+    text-shadow: 2px 2px;
+}
+h3.two {
+    text-shadow: 2px 2px red;
+}
+h3.three {
+    text-shadow: 2px 2px 5px red;
+}
