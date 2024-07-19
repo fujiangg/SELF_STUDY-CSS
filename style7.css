@@ -36,3 +36,6 @@ p.overline_underline {
     text-decoration-style: wavy;
     text-decoration-thickness: 25%;
 }
+p.shorthand {
+    text-decoration: overline underline red solid 2px;
+}
