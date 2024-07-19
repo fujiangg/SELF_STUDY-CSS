@@ -12,3 +12,15 @@ p.direction {
     direction: rtl;
     unicode-bidi: bidi-override;
 }
+p.overline {
+    text-decoration-line: overline;
+}
+p.underline {
+    text-decoration-line: underline;
+}
+p.line-through {
+    text-decoration-line: line-through;
+}
+p.overline_underline {
+    text-decoration-line: overline underline;
+}
