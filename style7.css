@@ -16,19 +16,23 @@ p.overline {
     text-decoration-line: overline;
     text-decoration-color: red;
     text-decoration-style: solid;
+    text-decoration-thickness: auto;
 }
 p.underline {
     text-decoration-line: underline;
     text-decoration-color: green;
     text-decoration-style: dotted;
+    text-decoration-thickness: 5px;
 }
 p.line-through {
     text-decoration-line: line-through;
     text-decoration-color: yellow;
     text-decoration-style: double;
+    text-decoration-thickness: 10%;
 }
 p.overline_underline {
     text-decoration-line: overline underline;
     text-decoration-color: purple;
     text-decoration-style: wavy;
+    text-decoration-thickness: 25%;
 }
