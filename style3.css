@@ -72,8 +72,12 @@ p.four {
 p.allSide {
     border-style: solid;
     border-color: red;
+    outline-style: solid;
+    outline-color: red;
 }
 p.customAllSide {
+    border-style: solid;
+    border-color: red green blue yellow;
     border-style: solid;
     border-color: red green blue yellow;
 }
