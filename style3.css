@@ -86,3 +86,10 @@ p.borderShorthand {
     border: 3px solid purple;
     outline: 3px solid red;
 }
+/* Outline Offset */
+p.outlineOffset {
+    margin: 20px;
+    border: 2px solid black;
+    outline: 1px solid grey;
+    outline-offset: 10px;
+}
