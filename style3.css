@@ -1,30 +1,38 @@
 h1 {
     text-align: center;
 }
-/* Border Style */
+/* Border Style & Outline Style*/
 p.dotted {
     border-style: dotted;
+    outline-style: dotted;
 }
 p.dashed {
     border-style: dashed;
+    outline-style: dashed;
 }
 p.solid {
     border-style: solid;
+    outline-style: solid;
 }
 p.double {
     border-style: double;
+    outline-style: double;
 }
 p.groove {
     border-style: groove;
+    outline-style: groove;
 }
 p.ridge {
     border-style: ridge;
+    outline-style: ridge;
 }
 p.inset {
     border-style: inset;
+    outline-style: inset;
 }
 p.outset {
     border-style: outset;
+    outline-style: outset;
 }
 p.none {
     border-style: none;
