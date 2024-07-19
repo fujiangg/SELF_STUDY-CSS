@@ -14,13 +14,17 @@ p.direction {
 }
 p.overline {
     text-decoration-line: overline;
+    text-decoration-color: red;
 }
 p.underline {
     text-decoration-line: underline;
+    text-decoration-color: green;
 }
 p.line-through {
     text-decoration-line: line-through;
+    text-decoration-color: yellow;
 }
 p.overline_underline {
     text-decoration-line: overline underline;
+    text-decoration-color: purple;
 }
