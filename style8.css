@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+/* Font Family */
+p.serif {
+     font-family: "Times New Roman", Times, serif; /* Fallback Fonts */
+}
+p.sans-serif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p.monospace {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+p.cursive {
+    font-family: "Brush Script MT", "Lucida Handwriting", "cursive";
+}
+p.fantasy {
+    font-family: "Copperplate", "Papyrus", "fantasy";
+}
