@@ -17,3 +17,13 @@ p.cursive {
 p.fantasy {
     font-family: "Copperplate", "Papyrus", "fantasy";
 }
+/* Font Style */
+p.normal {
+    font-style: normal;
+}
+p.italic {
+    font-style: italic;
+}
+p.oblique {
+    font-style: oblique;
+}
