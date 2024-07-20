@@ -42,9 +42,15 @@ p.variantSmallCaps{
     font-variant: small-caps;
 }
 /* Font Sizes */
+body {
+    font-size: 100%;
+}
 p.pixels {
     font-size: 50px;
 }
 p.em {
     font-size: 3em;
+}
+p.responsiveSize {
+    font-size: 7vw;
 }
