@@ -1,5 +1,12 @@
-h1 {
+h1.title {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+}
+h2 {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
 }
 /* Font Family */
 p.serif {
@@ -53,4 +60,18 @@ p.em {
 }
 p.responsiveSize {
     font-size: 7vw;
+}
+/* Google Fonts */
+h1.audiowide {
+    font-family: "Audiowide", sans-serif;
+}
+h1.sofia {
+    font-family: "Sofia", sans-serif;
+}
+h1.trirong {
+    font-family: "Trirong", serif;
+}
+/* Google Font Effect */
+h1.font-effect-neon, h1.font-effect-outline, h1.font-effect-emboss, h1.font-effect-shadow-multiple {
+    font-family: "Sofia", sans-serif;
 }
