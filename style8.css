@@ -34,3 +34,10 @@ p.weightNormal {
 p.weightBold {
     font-weight: bold;
 }
+/* Font Variant */
+p.variantNormal {
+    font-variant: normal;
+}
+p.variantSmallCaps{
+    font-variant: small-caps;
+}
