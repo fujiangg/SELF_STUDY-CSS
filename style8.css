@@ -41,3 +41,10 @@ p.variantNormal {
 p.variantSmallCaps{
     font-variant: small-caps;
 }
+/* Font Sizes */
+p.pixels {
+    font-size: 50px;
+}
+p.em {
+    font-size: 3em;
+}
