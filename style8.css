@@ -75,3 +75,7 @@ h1.trirong {
 h1.font-effect-neon, h1.font-effect-outline, h1.font-effect-emboss, h1.font-effect-shadow-multiple {
     font-family: "Sofia", sans-serif;
 }
+/* Font Shorthand */
+p.shorthand {
+    font: italic normal bold 20px Georgia, serif;
+}
