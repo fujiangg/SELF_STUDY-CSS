@@ -27,3 +27,10 @@ p.italic {
 p.oblique {
     font-style: oblique;
 }
+/* Font Weight */
+p.weightNormal {
+    font-weight: normal;
+}
+p.weightBold {
+    font-weight: bold;
+}
