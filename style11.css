@@ -12,18 +12,18 @@ h3 {
 }
 
 /* List Item Markers */
-section.unorderedList, section.orderedList, section.image {
+section.unorderedList, section.orderedList, section.image, section.position {
     width: 100%;
 }
 
-div.circle, div.disc, div.square, div.armenian, div.cjk-ideographic, div.decimal, div.decimal-leading-zero, div.georgian, div.hebrew, div.hiragana, div.hiragana-iroha, div.katakana, div.katakana-iroha, div.lower-alpha, div.lower-greek, div.lower-latin, div.lower-roman, div.upper-alpha, div.upper-latin, div.upper-roman, div.none, div.inherit, div.image {
+div.circle, div.disc, div.square, div.armenian, div.cjk-ideographic, div.decimal, div.decimal-leading-zero, div.georgian, div.hebrew, div.hiragana, div.hiragana-iroha, div.katakana, div.katakana-iroha, div.lower-alpha, div.lower-greek, div.lower-latin, div.lower-roman, div.upper-alpha, div.upper-latin, div.upper-roman, div.none, div.inherit, div.image, div.inside, div.outside {
     border: 1px solid blue;
     float: left;
     width: 20%;
     height: 150px;
 }
 
-p.circle, p.disc, p.square, p.armenian, p.cjk-ideographic, p.decimal, p.decimal-leading-zero, p.georgian, p.hebrew, p.hiragana, p.hiragana-iroha, p.katakana, p.katakana-iroha, p.lower-alpha, p.lower-greek, p.lower-latin, p.lower-roman, p.upper-alpha, p.upper-latin, p.upper-roman, p.none, p.inherit, p.image {
+p.circle, p.disc, p.square, p.armenian, p.cjk-ideographic, p.decimal, p.decimal-leading-zero, p.georgian, p.hebrew, p.hiragana, p.hiragana-iroha, p.katakana, p.katakana-iroha, p.lower-alpha, p.lower-greek, p.lower-latin, p.lower-roman, p.upper-alpha, p.upper-latin, p.upper-roman, p.none, p.inherit, p.image, p.inside, p.outside {
     text-align: center;
     font-size: 20px;
     color: blue;
@@ -143,14 +143,27 @@ ul.image {
     list-style-image: url('sqpurple.gif');
 }
 
-section.unorderedList::after, section.orderedList::after, section.image::after {
+/* List Position */
+ul.inside {
+    list-style-position: inside;
+}
+
+ul.outside {
+    list-style-position: outside;
+}
+
+ul.inside li, ul.outside li {
+    border: 1px dashed blue;
+}
+
+section.unorderedList::after, section.orderedList::after, section.image::after, section.position::after {
     content: "";
     display: table;
     clear: both;
 }
 
 @media screen and (max-width: 800px) {
-    .circle, .disc, .square, .armenian, .cjk-ideographic, .decimal, .decimal-leading-zero, .georgian, .hebrew, .hiragana, .hiragana-iroha, .katakana, .katakana-iroha, .lower-alpha, .lower-greek, .lower-latin, .lower-roman, .upper-alpha, .upper-latin, .upper-roman, .none, .inherit, .image {
+    .circle, .disc, .square, .armenian, .cjk-ideographic, .decimal, .decimal-leading-zero, .georgian, .hebrew, .hiragana, .hiragana-iroha, .katakana, .katakana-iroha, .lower-alpha, .lower-greek, .lower-latin, .lower-roman, .upper-alpha, .upper-latin, .upper-roman, .none, .inherit, .image, .inside, .outside {
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
     }
 }
