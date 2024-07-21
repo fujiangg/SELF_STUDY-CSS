@@ -6,6 +6,10 @@ table, th, td {
     border-collapse: collapse;
     width: 100%;
 }
-th   {
+th {
     height: 50px;
+    text-align: center;
+}
+td {
+    text-align: left;
 }
