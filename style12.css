@@ -9,6 +9,7 @@ table, th, td {
 th {
     height: 50px;
     text-align: center;
+    border-bottom: 2px solid green;
 }
 td {
     height: 50px;
