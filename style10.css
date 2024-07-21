@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+/* Styling Links */
+/* unvisited link */
+a.stylingLinks:link {
+    color: red;
+    text-decoration: none;
+    background-color: yellow;
+  }
+/* visited link */
+a.stylingLinks:visited {
+    color: green;
+    text-decoration: none;
+    background-color: cyan;
+}
+/* mouse over link */
+a.stylingLinks:hover {
+    color: hotpink;
+    text-decoration: underline;
+    background-color: lightgreen;
+} 
+/* selected link */
+a.stylingLinks:active {
+    color: blue;
+    text-decoration: underline;
+    background-color: hotpink;
+}
