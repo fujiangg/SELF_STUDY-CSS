@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+/* List Item Markers */
+section.unorderedList, section.orderedList {
+    width: 100%;
+}
+
+div.circle, div.disc, div.square, div.armenian, div.cjk-ideographic, div.decimal, div.decimal-leading-zero, div.georgian, div.hebrew, div.hiragana, div.hiragana-iroha, div.katakana, div.katakana-iroha, div.lower-alpha, div.lower-greek, div.lower-latin, div.lower-roman, div.upper-alpha, div.upper-latin, div.upper-roman, div.none, div.inherit {
+    border: 1px solid blue;
+    float: left;
+    width: 20%;
+    height: 150px;
+}
+
+p.circle, p.disc, p.square, p.armenian, p.cjk-ideographic, p.decimal, p.decimal-leading-zero, p.georgian, p.hebrew, p.hiragana, p.hiragana-iroha, p.katakana, p.katakana-iroha, p.lower-alpha, p.lower-greek, p.lower-latin, p.lower-roman, p.upper-alpha, p.upper-latin, p.upper-roman, p.none, p.inherit {
+    text-align: center;
+    font-size: 20px;
+    color: blue;
+}
+
+/* Circle */
+ul.circle {
+    list-style-type: circle;
+}
+
+/* Disc */
+ul.disc {
+    list-style-type: disc;
+}
+
+/* Square */
+ul.square {
+    list-style-type: square;
+}
+
+/* Armenian */
+ol.armenian {
+    list-style-type: armenian;
+}
+
+/* cjk-ideographic */
+ol.cjk-ideographic {
+    list-style-type: cjk-ideographic;
+}
+/* Decimal */
+ol.decimal {
+    list-style-type: decimal;
+}
+
+/* decimal-leading-zero */
+ol.decimal-leading-zero {
+    list-style-type: decimal-leading-zero;
+}
+
+/* Georgian */
+ol.georgian {
+    list-style-type: georgian;
+}
+
+/* Hebrew */
+ol.hebrew {
+    list-style-type: hebrew;
+}
+
+/* Hiragana */
+ol.hiragana {
+    list-style-type: hiragana;
+}
+
+/* hiragana-iroha */
+ol.hiragana-iroha {
+    list-style-type: hiragana-iroha;
+}
+
+/* Katakana */
+ol.katakana {
+    list-style-type: katakana;
+}
+
+/* katakana-iroha */
+ol.katakana-iroha {
+    list-style-type: katakana-iroha;
+}
+
+/* lower-alpha */
+ol.lower-alpha {
+    list-style-type: lower-alpha;
+}
+
+/* lower-greek */
+ol.lower-greek {
+    list-style-type: lower-greek;
+}
+
+/* lower-latin */
+ol.lower-latin {
+    list-style-type: lower-latin;
+}
+
+/* lower-roman */
+ol.lower-roman {
+    list-style-type: lower-roman;
+}
+
+/* upper-alpha */
+ol.upper-alpha {
+    list-style-type: upper-alpha;
+}
+
+/* upper-latin */
+ol.upper-latin {
+    list-style-type: upper-latin;
+}
+
+/* upper-roman */
+ol.upper-roman {
+    list-style-type: upper-roman;
+}
+
+/* None */
+ol.none {
+    list-style-type: none;
+}
+
+/* Inherit */
+ol.inherit {
+    list-style-type: inherit;
+}
+
+section.unorderedList::after, section.orderedList::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 800px) {
+    .circle, .disc, .square, .armenian, .cjk-ideographic, .decimal, .decimal-leading-zero, .georgian, .hebrew, .hiragana, .hiragana-iroha, .katakana, .katakana-iroha, .lower-alpha, .lower-greek, .lower-latin, .lower-roman, .upper-alpha, .upper-latin, .upper-roman, .none, .inherit {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
