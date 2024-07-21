@@ -11,5 +11,7 @@ th {
     text-align: center;
 }
 td {
+    height: 50px;
     text-align: left;
+    vertical-align: middle;
 }
