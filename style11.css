@@ -23,6 +23,11 @@ div.circle, div.disc, div.square, div.armenian, div.cjk-ideographic, div.decimal
     height: 150px;
 }
 
+div.inside, div.outside {
+    background: #ffe5e5;
+    color: darkred;
+}
+
 p.circle, p.disc, p.square, p.armenian, p.cjk-ideographic, p.decimal, p.decimal-leading-zero, p.georgian, p.hebrew, p.hiragana, p.hiragana-iroha, p.katakana, p.katakana-iroha, p.lower-alpha, p.lower-greek, p.lower-latin, p.lower-roman, p.upper-alpha, p.upper-latin, p.upper-roman, p.none, p.inherit, p.image, p.inside, p.outside, p.shorthand {
     text-align: center;
     font-size: 20px;
@@ -154,6 +159,7 @@ ul.outside {
 
 ul.inside li, ul.outside li {
     border: 1px dashed blue;
+    background: lightcyan;
 }
 
 /* Shorthand */
