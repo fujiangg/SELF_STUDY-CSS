@@ -55,3 +55,23 @@ a.buttonLinks2:hover, a.buttonLinks2:active {
     background-color: green;
     color: white;
 }
+/* Different Hover */
+a.hover1:link {color: #ff0000;}
+a.hover1:visited {color: #0000ff;}
+a.hover1:hover {color: #ffcc00;}
+
+a.hover2:link {color: #ff0000;}
+a.hover2:visited {color: #0000ff;}
+a.hover2:hover {font-size: 150%;}
+
+a.hover3:link {color: #ff0000;}
+a.hover3:visited {color: #0000ff;}
+a.hover3:hover {background: #66ff66;}
+
+a.hover4:link {color: #ff0000;}
+a.hover4:visited {color: #0000ff;}
+a.hover4:hover {font-family: monospace;}
+
+a.hover5:link {color: #ff0000; text-decoration: none;}
+a.hover5:visited {color: #0000ff; text-decoration: none;}
+a.hover5:hover {text-decoration: underline;}
