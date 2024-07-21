@@ -12,18 +12,18 @@ h3 {
 }
 
 /* List Item Markers */
-section.unorderedList, section.orderedList {
+section.unorderedList, section.orderedList, section.image {
     width: 100%;
 }
 
-div.circle, div.disc, div.square, div.armenian, div.cjk-ideographic, div.decimal, div.decimal-leading-zero, div.georgian, div.hebrew, div.hiragana, div.hiragana-iroha, div.katakana, div.katakana-iroha, div.lower-alpha, div.lower-greek, div.lower-latin, div.lower-roman, div.upper-alpha, div.upper-latin, div.upper-roman, div.none, div.inherit {
+div.circle, div.disc, div.square, div.armenian, div.cjk-ideographic, div.decimal, div.decimal-leading-zero, div.georgian, div.hebrew, div.hiragana, div.hiragana-iroha, div.katakana, div.katakana-iroha, div.lower-alpha, div.lower-greek, div.lower-latin, div.lower-roman, div.upper-alpha, div.upper-latin, div.upper-roman, div.none, div.inherit, div.image {
     border: 1px solid blue;
     float: left;
     width: 20%;
     height: 150px;
 }
 
-p.circle, p.disc, p.square, p.armenian, p.cjk-ideographic, p.decimal, p.decimal-leading-zero, p.georgian, p.hebrew, p.hiragana, p.hiragana-iroha, p.katakana, p.katakana-iroha, p.lower-alpha, p.lower-greek, p.lower-latin, p.lower-roman, p.upper-alpha, p.upper-latin, p.upper-roman, p.none, p.inherit {
+p.circle, p.disc, p.square, p.armenian, p.cjk-ideographic, p.decimal, p.decimal-leading-zero, p.georgian, p.hebrew, p.hiragana, p.hiragana-iroha, p.katakana, p.katakana-iroha, p.lower-alpha, p.lower-greek, p.lower-latin, p.lower-roman, p.upper-alpha, p.upper-latin, p.upper-roman, p.none, p.inherit, p.image {
     text-align: center;
     font-size: 20px;
     color: blue;
@@ -138,14 +138,20 @@ ol.inherit {
     list-style-type: inherit;
 }
 
-section.unorderedList::after, section.orderedList::after {
+/* Image as List Item Marker */
+ul.image {
+    list-style-image: url('sqpurple.gif');
+}
+
+section.unorderedList::after, section.orderedList::after, section.image::after {
     content: "";
     display: table;
     clear: both;
 }
 
 @media screen and (max-width: 800px) {
-    .circle, .disc, .square, .armenian, .cjk-ideographic, .decimal, .decimal-leading-zero, .georgian, .hebrew, .hiragana, .hiragana-iroha, .katakana, .katakana-iroha, .lower-alpha, .lower-greek, .lower-latin, .lower-roman, .upper-alpha, .upper-latin, .upper-roman, .none, .inherit {
+    .circle, .disc, .square, .armenian, .cjk-ideographic, .decimal, .decimal-leading-zero, .georgian, .hebrew, .hiragana, .hiragana-iroha, .katakana, .katakana-iroha, .lower-alpha, .lower-greek, .lower-latin, .lower-roman, .upper-alpha, .upper-latin, .upper-roman, .none, .inherit, .image {
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
     }
 }
+
