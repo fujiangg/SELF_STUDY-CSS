@@ -2,14 +2,6 @@ h1 {
     text-align: center;
 }
 
-h2 {
-
-}
-
-h3 {
-
-}
-
 p {
     background-color: blue;
     padding: 10px;
@@ -21,9 +13,23 @@ span {
     padding: 10px;
 }
   
-p.ex1 {display: none;}
+/* p.ex1 {display: none;} */
 p.ex2 {display: inline;}
 p.ex3 {display: block;}
 p.ex4 {display: inline-block;}
 p.ex5 {display: flex;}
 p.ex6 {display: grid;}
+
+#panel, .flip {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    border: solid 1px #a6d8a8;
+    margin: auto;
+  }
+  
+#panel {
+    display: none;
+}

@@ -11,11 +11,13 @@
     <h2>The display Property</h2>
 
     <h3>display: none:</h3>
-    <p class="ex1">
-      <span>Text 1</span>
-      <span>Text 2</span>
-      <span>Text 3</span>
-    </p>
+    <p class="flip" onclick="myFunction()">Click to show panel</p>
+    <div id="panel">
+      <p>This panel contains a div element, which is hidden by default (display: none).</p>
+      <p>It is styled with CSS and we use JavaScript to show it (display: block).</p>
+      <p>How it works: Notice that the p element with class="flip" has an onclick attribute attached to it. When the user clicks on the p element, a function called myFunction() is executed, which changes the style of the div with id="panel" from display:none (hidden) to display:block (visible).</p>
+      <p>You will learn more about JavaScript in our JavaScript Tutorial.</p>
+    </div>
     <hr>
     
     <h3>display: inline:</h3>
@@ -57,5 +59,11 @@
       <span>Text 3</span>
     </p>
     <hr>
+
+    <script>
+        function myFunction() {
+          document.getElementById("panel").style.display = "block";
+        }
+    </script>
 </body>
 </html>
