@@ -33,3 +33,7 @@ p.ex6 {display: grid;}
 #panel {
     display: none;
 }
+
+li {
+    display: inline;
+}
