@@ -7,7 +7,7 @@ p {
     padding: 10px;
 }
   
-span {
+span.display {
     background-color: red;
     color: white;
     padding: 10px;
@@ -36,4 +36,12 @@ p.ex6 {display: grid;}
 
 li {
     display: inline;
+}
+
+span.override-span {
+    display: block;
+}
+
+div.link-display-block a {
+    display: block;
 }
