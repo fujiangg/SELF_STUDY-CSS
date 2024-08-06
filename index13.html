@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>LAYOUT DISPLAY PROPERTY</h1>
+
     <h2>The display Property</h2>
 
     <h3>display: none:</h3>
@@ -18,6 +19,7 @@
       <p>How it works: Notice that the p element with class="flip" has an onclick attribute attached to it. When the user clicks on the p element, a function called myFunction() is executed, which changes the style of the div with id="panel" from display:none (hidden) to display:block (visible).</p>
       <p>You will learn more about JavaScript in our JavaScript Tutorial.</p>
     </div>
+
     <hr>
     
     <h3>display: inline:</h3>
@@ -26,6 +28,7 @@
       <span class="display">Text 2</span>
       <span class="display">Text 3</span>
     </p>
+
     <hr>
     
     <h3>display: block:</h3>
@@ -34,6 +37,7 @@
       <span class="display">Text 2</span>
       <span class="display">Text 3</span>
     </p>
+
     <hr>
     
     <h3>display: inline-block:</h3>
@@ -42,6 +46,7 @@
       <span class="display">Text 2</span>
       <span class="display">Text 3</span>
     </p>
+
     <hr>
     
     <h3>display: flex:</h3>
@@ -50,6 +55,7 @@
       <span class="display">Text 2</span>
       <span class="display">Text 3</span>
     </p>
+
     <hr>
     
     <h3>display: grid:</h3>
@@ -58,9 +64,11 @@
       <span class="display">Text 2</span>
       <span class="display">Text 3</span>
     </p>
+
     <hr>
 
     <h2>Override Default Display Value</h2>
+
     <h3>Display li elements as inline elements</h3>
     <ul>
       <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML</a></li>
@@ -71,9 +79,9 @@
     <hr>
 
     <h3>Display span elements as block elements</h3>
-      <span class="override-span">A display property with</span> 
-      <span class="override-span">a value of "block" results in</span> 
-      <span class="override-span">a line break between each span elements.</span>
+    <span class="override-span">A display property with</span> 
+    <span class="override-span">a value of "block" results in</span> 
+    <span class="override-span">a line break between each span elements.</span>
 
     <hr>
 
@@ -84,10 +92,63 @@
       <a href="https://www.w3schools.com/js/default.asp" target="_blank">JavaScript</a>
     </div>
 
+    <hr>
+
+    <h2>Hide Element</h2>
+
+    <h3>Difference between display:none and visiblity: hidden</h3>
+    <p class="p-hide"><strong>visibility:hidden</strong> hides the element, but it still takes up space in the layout.</p>
+    <p class="p-hide"><strong>display:none</strong> removes the element from the document. It does not take up any space.</p>
+
+    <div class="imgbox" id="imgbox1">Box 1<br>
+      <img src="img_5terre.jpg" alt="Italy" style="width:100%">
+      <button onclick="removeElement()">Remove</button>
+    </div>
+    
+    <div class="imgbox" id="imgbox2">Box 2<br>
+      <img src="img_lights.jpg" alt="Lights" style="width:100%">
+      <button onclick="changeVisibility()">Hide</button>
+    </div>
+    
+    <div class="imgbox">Box 3<br>
+      <img src="img_forest.jpg" alt="Forest" style="width:100%">
+      <button onclick="resetElement()">Reset All</button>
+    </div>
+
+    <br><br>
+    <hr class="clearfix">
+
+    <h3><strong>display:none;</strong></h3>
+    <h4>This is a visible heading</h4>
+    <h4 class="none">This is a hidden heading</h4>
+    <p>Notice that the h4 element with display: none; does not take up any space.</p>
+
+    <hr>
+
+    <h3><strong>visibility:hidden;</strong></h3>
+    <h4>This is a visible heading</h4>
+    <h4 class="hidden">This is a hidden heading</h4>
+    <p>Notice that the hidden heading still takes up space.</p>
+
     <script>
         function myFunction() {
           document.getElementById("panel").style.display = "block";
         }
+    </script>
+
+    <script>
+      function removeElement() {
+        document.getElementById("imgbox1").style.display = "none";
+      }
+      
+      function changeVisibility() {
+        document.getElementById("imgbox2").style.visibility = "hidden";
+      }
+      
+      function resetElement() {
+        document.getElementById("imgbox1").style.display = "block";
+        document.getElementById("imgbox2").style.visibility = "visible";
+      }
     </script>
 </body>
 </html>
