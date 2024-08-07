@@ -44,3 +44,44 @@ div.sticky {
     background-color: #cae8ca;
     border: 2px solid #4CAF50;
 }
+
+div.container {
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+
+div.position .topleft, div.position .topright, div.position .bottomleft, div.position .bottomright, div.position .centered {
+    position: absolute;
+    font-size: 18px;
+}
+
+div.topleft {
+    top: 8px;
+    left: 16px;
+}
+
+div.topright {
+    top: 8px;
+    right: 16px;
+}
+
+div.bottomleft {
+    bottom: 8px;
+    left: 16px;
+}
+
+div.bottomright {
+    bottom: 8px;
+    right: 16px;
+}
+
+div.centered {
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
