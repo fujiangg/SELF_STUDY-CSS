@@ -9,13 +9,20 @@ img {
     z-index: -1;
 }
 
-div.container {
+div.container, div.container2 {
     position: relative;
 }
 
 div.black-box {
     position: relative;
     z-index: 1;
+    border: 2px solid black;
+    height: 100px;
+    margin: 30px;
+}
+
+div.black-box-2 {
+    position: relative;
     border: 2px solid black;
     height: 100px;
     margin: 30px;
@@ -31,10 +38,28 @@ div.gray-box {
     top: 50px;
 }
 
+div.gray-box-2 {
+    position: absolute;
+    background: lightgray;
+    height: 60px;
+    width: 70%;
+    left: 50px;
+    top: 50px;
+}
+
 div.green-box {
     position: absolute;
     z-index: 2;
     background-color: lightgreen;
+    width: 35%;
+    left: 270px;
+    top: -15px;
+    height: 100px;
+}
+
+div.green-box-2 {
+    position: absolute;
+    background: lightgreen;
     width: 35%;
     left: 270px;
     top: -15px;
