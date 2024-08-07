@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+}
+
+div.visible {
+    width: 200px;
+    height: 65px;
+    background-color: coral;
+    overflow: visible;
+    margin-bottom: 70px;
+}
+
+div.hidden {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+div.scroll {
+    background-color: coral;
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+div.auto {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+div.x-y {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
