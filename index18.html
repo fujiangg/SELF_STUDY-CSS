@@ -36,5 +36,33 @@
 
     <hr>
 
+    <h2>Clear Property</h2>
+    <!-- Without Clear -->
+    <h3>Without clear</h3>
+    <div class="cleardiv1">div1</div>
+    <div class="cleardiv2">div2 - Notice that div2 is after div1 in the HTML code. However, since div1 floats to the left, the text in div2 flows around div1.</div>
+    <!-- With Clear -->
+    <h3>With clear</h3>
+    <div class="cleardiv3">div3</div>
+    <div class="cleardiv4">div4 - Here, clear: left; moves div4 down below the floating div3. The value "left" clears elements floated to the left. You can also clear "right" and "both".</div>
+
+    <h2>Clearfix Hack</h2>
+    <!-- Without Clearfix -->
+    <h3>Without Clearfix</h3>
+    <p>This image is floated to the right. It is also taller than the element containing it, so it overflows outside of its container:</p>
+    <div class="no-clearfix">
+    <img class="clearfix-img1" src="pineapple.jpg" alt="Pineapple" width="170" height="170">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+    </div>
+
+    <!-- With Clearfix -->
+    <h3 style="clear:right;">With Clearfix</h3>
+    <p>We can fix this by adding a clearfix class with overflow: auto; to the containing element:</p>
+    <div class="clearfix">
+    <img class="clearfix-img2" src="pineapple.jpg" alt="Pineapple" width="170" height="170">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+    </div>
+
+    <hr>
 </body>
 </html>
