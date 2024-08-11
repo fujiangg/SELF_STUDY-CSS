@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    background-color: yellow;
+}
+
+img.right {
+    float: right;
+}
+
+img.left {
+    float: left;
+}
+
+img.none {
+    float: none;
+}
+
+div.div1 {
+    background: red;
+    float: left;
+    padding: 15px;
+}
+
+div.div2 {
+    background: yellow;
+    float: left;
+    padding: 15px;
+}
+
+div.div3 {
+    background: green;
+    float: left;
+    padding: 15px;
+}
+
+div.cleardiv {
+    clear: left;
+}
+
+hr {
+    clear: left;
+}
+
