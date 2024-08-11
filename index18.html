@@ -68,13 +68,13 @@
     <!-- Grid of Boxes -->
     <h3>Grid of Boxes / Equal Width Boxes</h3>
     <div class="grid">
-        <div class="box" style="background-color:#bbb">
+        <div class="grid-box" style="background-color:#bbb">
             <p>Some text inside the box.</p>
         </div>
-        <div class="box" style="background-color:#ccc">
+        <div class="grid-box" style="background-color:#ccc">
             <p>Some text inside the box.</p>
         </div>
-        <div class="box" style="background-color:#ddd">
+        <div class="grid-box" style="background-color:#ddd">
             <p>Some text inside the box.</p>
         </div>
     </div>
@@ -90,6 +90,29 @@
         <div class="img-container">
             <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
         </div>
+    </div>
+    <!-- Equal Height Boxes -->
+    <h3>Equal Height Boxes</h3>
+    <!-- Without Flexbox -->
+    <p style="background: red;">Manual | Without Flexbox</p>
+    <div class="height-boxes">
+        <div class="height-box" style="background-color:#bbb">
+            <h2>Box 1</h2>
+            <p>Some content, some content, some content</p>
+        </div>
+        <div class="height-box" style="background-color:#ccc">
+            <h2>Box 2</h2>
+            <p>Some content, some content, some content</p>
+            <p>Some content, some content, some content</p>
+            <p>Some content, some content, some content</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quasi ex alias, nemo autem aspernatur at doloremque necessitatibus, quas eligendi deleniti blanditiis quis beatae dolore cupiditate? Maxime id iusto fuga.</p>
+        </div>
+    </div>
+    <!-- With Flexbox -->
+    <p style="background: red;">With Flexbox</p>
+    <div class="flex-container">
+        <div class="flex-box">Box 1 - This is some text to make sure that the content gets really tall. This is some text to make sure that the content gets really tall. lo</div>
+        <div class="flex-box">Box 2 - My height will follow Box 1.</div>
     </div>
 </body>
 </html>
