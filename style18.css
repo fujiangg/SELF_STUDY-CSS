@@ -93,3 +93,18 @@ img.clearfix-img2 {
     display: table;
 } */
   
+* {
+    box-sizing: border-box;
+}
+  
+div.box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+}
+  
+div.grid::after {
+    content: "";
+    clear: both;
+    display: table;
+}
