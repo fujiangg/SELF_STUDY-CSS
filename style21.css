@@ -1,0 +1,10 @@
+h1 {
+    text-align: center;
+}
+div.descendant {
+    border: 2px solid yellow;
+    padding: 10px;
+}
+div.descendant-example p {
+    background-color: yellow;
+}
