@@ -2,7 +2,7 @@ h1 {
     text-align: center;
 }
 
-div.descendant, div.child {
+div.descendant, div.child, div.adjacent {
     border: 2px solid yellow;
     padding: 10px;
 }
@@ -12,5 +12,9 @@ div.descendant-example p {
 }
 
 div.child-example > p {
+    background-color: yellow;
+}
+
+div.adjacent-example + p {
     background-color: yellow;
 }
