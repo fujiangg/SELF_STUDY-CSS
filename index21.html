@@ -9,12 +9,23 @@
 <body>
     <h1>COMBINATORS</h1>
     <!-- descendant selector -->
-    <h2>Descendant Selector</h2>
+    <h2>Descendant Selector (space)</h2>
     <div class="descendant">
         <div class="descendant-example">
             <p>Paragraph 1 in the div</p>
             <p>Paragraph 1 in the div</p>
-            <section><p>Paragraph 3 in the div</p></section>
+            <section><p>Paragraph 3 in the div (inside a section element)</p></section>
+        </div>
+        <p>Paragraph 4 Not in the div</p>
+        <p>Paragraph 5 Not in the div</p>
+    </div>
+    <!-- child selector -->
+    <h2>Child Selector (>)</h2>
+    <div class="child">
+        <div class="child-example">
+            <p>Paragraph 1 in the div</p>
+            <p>Paragraph 1 in the div</p>
+            <section><p>Paragraph 3 in the div (inside a section element)</p></section>
         </div>
         <p>Paragraph 4 Not in the div</p>
         <p>Paragraph 5 Not in the div</p>
