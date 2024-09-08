@@ -38,6 +38,17 @@ div.tooltip:hover p.p-tooltip {
     display: block;
 }
 
+div.first-child-1 {
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1.5px solid blue;
+}
+
+p.p-1:first-child {
+    color: blue;
+}
+
 /* unvisited link */
 a.link-anchor:link {
     color: #FF0000;
