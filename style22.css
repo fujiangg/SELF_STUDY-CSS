@@ -11,28 +11,33 @@ div.syntax {
     margin-bottom: 30px;
 }
 
-div.anchor {
+div.anchor, div.pseudo-html {
     background-color: whitesmoke;
     padding: 10px;
     border: 1px solid black;
 }
 
 /* unvisited link */
-a:link {
+a.link-anchor:link {
     color: #FF0000;
 }
   
 /* visited link */
-a:visited {
+a.link-anchor:visited {
     color: #00FF00;
 }
   
 /* mouse over link */
-a:hover {
+a.link-anchor:hover {
     color: #FF00FF;
 }
   
 /* selected link */
-a:active {
+a.link-anchor:active {
     color: #0000FF;
+}
+
+a.link-pseudo-html:hover {
+    color: #ff0000;
+    font-size: 22px;
 }
