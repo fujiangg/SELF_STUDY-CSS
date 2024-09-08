@@ -11,10 +11,21 @@ div.syntax {
     margin-bottom: 30px;
 }
 
-div.anchor, div.pseudo-html {
+div.content {
     background-color: whitesmoke;
     padding: 10px;
     border: 1px solid black;
+}
+
+div.hover-div {
+    background-color: green;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+div.hover-div:hover {
+    background-color: blue;
 }
 
 /* unvisited link */
