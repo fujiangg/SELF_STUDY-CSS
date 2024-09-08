@@ -82,3 +82,7 @@ a.link-pseudo-html:hover {
     color: #ff0000;
     font-size: 22px;
 }
+
+q:lang(no) {
+    quotes: "~" "~";
+}
