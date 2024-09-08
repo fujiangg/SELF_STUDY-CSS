@@ -28,6 +28,16 @@ div.hover-div:hover {
     background-color: blue;
 }
 
+p.p-tooltip {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+
+div.tooltip:hover p.p-tooltip {
+    display: block;
+}
+
 /* unvisited link */
 a.link-anchor:link {
     color: #FF0000;
