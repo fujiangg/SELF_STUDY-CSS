@@ -54,6 +54,10 @@ p.p-2 i:first-child {
     color: blue;
 }
 
+p.p-3:first-child i {
+    color: blue;
+}
+
 /* unvisited link */
 a.link-anchor:link {
     color: #FF0000;
