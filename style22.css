@@ -38,14 +38,19 @@ div.tooltip:hover p.p-tooltip {
     display: block;
 }
 
-div.first-child-1 {
+div.first-child {
     background-color: lightblue;
     padding: 10px;
     border-radius: 5px;
     border: 1.5px solid blue;
+    margin-bottom: 5px;
 }
 
 p.p-1:first-child {
+    color: blue;
+}
+
+p.p-2 i:first-child {
     color: blue;
 }
 

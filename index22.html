@@ -45,7 +45,8 @@
     <!-- :first-child Pseudo-class -->
     <div class="content">
         <h2>:first-child Pseudo-class</h2>
-        <div class="first-child-1">
+        <div class="first-child">
+            <!-- Match the first <p> element -->
             <h3>1. Match the first p element</h3>
             <p class="p-1">This is some text</p>
             <p class="p-1">This is some text</p>
@@ -54,7 +55,12 @@
                 <p class="p-1">This is some text</p>
             </div>
         </div>
-
+        <div class="first-child">
+            <!-- Match the first <i> in all <p> elements -->
+            <h3>2. Match the first i in all p elements</h3>
+            <p class="p-2">I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+            <p class="p-2">I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+        </div>
     </div>
 </body>
 </html>
