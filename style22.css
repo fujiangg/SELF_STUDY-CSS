@@ -119,3 +119,8 @@ h4.before-pseudo::before {
 h4.after-pseudo::after {
     content: url(smiley.gif);
 }
+
+::selection {
+    color: red;
+    background: yellow;
+}
