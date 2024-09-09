@@ -68,6 +68,11 @@ p.first-letter::first-letter {
     font-size: xx-large;
 }
 
+p.pseudo-e-html::first-letter {
+    color: #ff0000;
+    font-size: 200%;
+}
+
 /* unvisited link */
 a.link-anchor:link {
     color: #FF0000;
