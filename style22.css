@@ -73,6 +73,16 @@ p.pseudo-e-html::first-letter {
     font-size: 200%;
 }
 
+p.multiple-pseudo::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+
+p.multiple-pseudo::first-line{
+    color: #0000ff;
+    font-variant: small-caps;
+}
+
 /* unvisited link */
 a.link-anchor:link {
     color: #FF0000;
