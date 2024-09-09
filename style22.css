@@ -63,6 +63,11 @@ p.first-line::first-line {
     font-variant: small-caps;
 }
 
+p.first-letter::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+
 /* unvisited link */
 a.link-anchor:link {
     color: #FF0000;
