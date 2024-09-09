@@ -115,3 +115,7 @@ q:lang(no) {
 h4.before-pseudo::before {
     content: url(smiley.gif);
 }
+
+h4.after-pseudo::after {
+    content: url(smiley.gif);
+}
