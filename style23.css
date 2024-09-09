@@ -21,3 +21,20 @@ img.img-3 {
 img.img-3:hover {
     opacity: 0.5;
 }
+
+div {
+    background-color: #04AA6D;
+    padding: 10px;
+}
+  
+div.first {
+    opacity: 0.1;
+}
+  
+div.second {
+    opacity: 0.3;
+}
+  
+div.third {
+    opacity: 0.6;
+}
