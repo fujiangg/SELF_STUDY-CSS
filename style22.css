@@ -111,3 +111,7 @@ a.link-pseudo-html:hover {
 q:lang(no) {
     quotes: "~" "~";
 }
+
+h4.before-pseudo::before {
+    content: url(smiley.gif);
+}
