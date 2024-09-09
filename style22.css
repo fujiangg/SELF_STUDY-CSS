@@ -58,6 +58,11 @@ p.p-3:first-child i {
     color: blue;
 }
 
+p.first-line::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+}
+
 /* unvisited link */
 a.link-anchor:link {
     color: #FF0000;
