@@ -38,3 +38,15 @@ div.second {
 div.third {
     opacity: 0.6;
 }
+
+div.fourth {
+    background: rgba(4, 170, 109, 0.1);
+}
+
+div.fifth {
+    background: rgba(4, 170, 109, 0.3);
+}
+
+div.sixth {
+    background: rgba(4, 170, 109, 0.6);
+}
