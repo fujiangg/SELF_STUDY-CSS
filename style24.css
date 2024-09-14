@@ -73,7 +73,7 @@ div.nav-2 li a {
     text-decoration: none;
 }
 
-div.nav-1 li a:hover {
+div.nav-1 li a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
@@ -86,4 +86,3 @@ div.nav-1 li a.active, div.nav-2 li a.active {
     background-color: #04AA6D;
     color: white;
 }
-
