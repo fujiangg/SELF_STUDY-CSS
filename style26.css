@@ -15,12 +15,12 @@ button.menu-dropbtn {
     cursor: pointer;
 }
 
-div.basic-dropdown, div.menu-dropdown {
+div.basic-dropdown, div.menu-dropdown, div.image-dropdown {
     position: relative;
     display: inline-block;
 }
 
-div.basic-dropdown-content, div.menu-dropdown-content {
+div.basic-dropdown-content, div.menu-dropdown-content, div.image-dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -37,7 +37,7 @@ div.menu-dropdown-content a {
     display: block;
 }
 
-div.basic-dropdown:hover div.basic-dropdown-content, div.menu-dropdown:hover div.menu-dropdown-content {
+div.basic-dropdown:hover div.basic-dropdown-content, div.menu-dropdown:hover div.menu-dropdown-content, div.image-dropdown:hover div.image-dropdown-content {
     display: block;
 }
 
@@ -47,4 +47,9 @@ div.menu-dropdown-content a:hover {
 
 div.menu-dropdown:hover button.menu-dropbtn {
     background-color: #3e8e41;
+}
+
+div.image-desc {
+    padding: 15px;
+    text-align: center;
 }
