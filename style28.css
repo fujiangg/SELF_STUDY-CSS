@@ -18,11 +18,11 @@ h2 {
     background: url(img_navsprites.gif) -91px 0;
 }
 
-#navlist {
+#navlist, #navlist2 {
     position: relative;
 }
 
-#navlist li {
+#navlist li, #navlist2 li {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -30,25 +30,43 @@ h2 {
     top: 0;
 }
 
-#navlist li, #navlist a {
+#navlist li, #navlist a, #navlist2 li, #navlist2 a {
     height: 44px;
     display: block;
 }
 
-#home1 {
+#home1, #home2 {
     left: 0px;
     width: 46px;
     background: url('img_navsprites.gif') 0 0;
 }
   
-#prev1 {
+#prev1, #prev2 {
     left: 63px;
     width: 43px;
     background: url('img_navsprites.gif') -47px 0;
 }
   
-#next1 {
+#next1, #next2 {
     left: 129px;
     width: 43px;
     background: url('img_navsprites.gif') -91px 0;
+}
+
+#home2 a:hover {
+    background: url('img_navsprites_hover.gif') 0 -45px;
+}
+
+#prev2 a:hover {
+    background: url('img_navsprites_hover.gif') -47px -45px;
+}
+
+#next2 a:hover {
+    background: url('img_navsprites_hover.gif') -91px -45px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
