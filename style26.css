@@ -6,12 +6,21 @@ h2 {
     background-color: lightgoldenrodyellow;
 }
 
-div.basic-dropdown {
+button.menu-dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+div.basic-dropdown, div.menu-dropdown {
     position: relative;
     display: inline-block;
 }
 
-div.basic-dropdown div.basic-dropdown-content {
+div.basic-dropdown-content, div.menu-dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -21,6 +30,21 @@ div.basic-dropdown div.basic-dropdown-content {
     z-index: 1;
 }
 
-div.basic-dropdown:hover div.basic-dropdown-content {
+div.menu-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
     display: block;
+}
+
+div.basic-dropdown:hover div.basic-dropdown-content, div.menu-dropdown:hover div.menu-dropdown-content {
+    display: block;
+}
+
+div.menu-dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+div.menu-dropdown:hover button.menu-dropbtn {
+    background-color: #3e8e41;
 }
