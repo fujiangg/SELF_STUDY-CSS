@@ -20,7 +20,7 @@ div.basic-dropdown, div.menu-dropdown, div.image-dropdown {
     display: inline-block;
 }
 
-div.basic-dropdown-content, div.menu-dropdown-content, div.image-dropdown-content {
+div.basic-dropdown-content, div.menu-dropdown-content, div.image-dropdown-content, div.navbar-dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -30,23 +30,55 @@ div.basic-dropdown-content, div.menu-dropdown-content, div.image-dropdown-conten
     z-index: 1;
 }
 
-div.menu-dropdown-content a {
+div.menu-dropdown-content a, div.navbar-dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
-div.basic-dropdown:hover div.basic-dropdown-content, div.menu-dropdown:hover div.menu-dropdown-content, div.image-dropdown:hover div.image-dropdown-content {
+div.navbar-dropdown-content a {
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, a.navbar-dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.basic-dropdown:hover div.basic-dropdown-content, div.menu-dropdown:hover div.menu-dropdown-content, div.image-dropdown:hover div.image-dropdown-content, li.navbar-dropdown:hover div.navbar-dropdown-content {
     display: block;
 }
 
-div.menu-dropdown-content a:hover {
+div.menu-dropdown-content a:hover, div.navbar-dropdown-content a:hover {
     background-color: #f1f1f1;
 }
 
 div.menu-dropdown:hover button.menu-dropbtn {
     background-color: #3e8e41;
+}
+
+li a:hover, li.navbar-dropdown:hover a.navbar-dropbtn {
+    background-color: red;
+}
+
+li.navbar-dropdown {
+    display: inline-block;
 }
 
 div.image-desc {
