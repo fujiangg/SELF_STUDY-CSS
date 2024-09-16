@@ -8,36 +8,52 @@
 </head>
 <body>
     <h1 class="title">ATTRIBUTE SELECTORS</h1>
+
     <!-- [attribute] -->
     <h2>[attribute] Selector</h2>
     <p>The links with a <span><b>target</b></span> attribute gets a cyan background:</p>
     <a href="https://www.w3schools.com/">w3schools.com</a>
     <a href="http://www.disney.com/" target="_top">disney.com</a>
     <a href="http://www.wikipedia.org/" target="_top">wikipedia.org</a>
+
+    <hr>
+
     <!-- [attribute="value"] -->
     <h2>[attribute="value"] Selector</h2>
     <p>The link with <span><b>target="_blank"</b></span> gets a lightblue background:</p>
     <a href="https://www.w3schools.com/">w3schools.com</a>
     <a href="http://www.disney.com/" target="_blank">disney.com</a>
     <a href="http://www.wikipedia.org/" target="_top">wikipedia.org</a>    
+
+    <hr>
+
     <!-- [attribute!="value"] -->
     <h2>[attribute~="value"] Selector</h2>
     <p>All images with <span><b>title~="flower"</b></span> the title attribute containing the word "flower" get a cyan border. Not hyphen (-)</p>
     <img src="klematis.jpg" title="klematis flower" width="180" height="150">
     <img src="img_flwr.gif" title="flower" width="224" height="150">
     <img src="img_tree.gif" title="tree" width="100" height="150">
+
+    <hr>
+
     <!-- [attribute|="value"] -->
     <h2>[attribute|="value"] Selector</h2>
     <p>All element with <span><b>class|="top"</b></span> the top attribute get a cyan background. The value can be exactly specified value, or specified value followed by a hypen (-)</p>
     <h1 class="top-header">Welcome</h1>
     <p class="top-text">Hello world!</p>
     <p class="topcontent">Are you learning CSS?</p>
+
+    <hr>
+
     <!-- [attribute^="value"] -->
     <h2>[attribute^="value"] Selector</h2>
     <p>All element started with <span><b>class^="first"</b></span> the first attribute get a lightblue background.</p>
     <h1 class="first-header">Welcome</h1>
     <p class="first-text">Hello world!</p>
     <p class="firstcontent">Are you learning CSS?</p>
+
+    <hr>
+
     <!-- [attribute$="value"] -->
     <h2>[attribute$="value"] Selector</h2>
     <p>All element ended with <span><b>class^="last"</b></span> the last attribute get a blue background.</p>
@@ -45,6 +61,9 @@
     <div class="second">The second div element.</div>
     <div class="my-last">The third div element.</div>
     <p class="mylast">This is some text in a paragraph.</p>
+
+    <hr>
+
     <!-- [attribute*="value"] -->
     <h2>[attribute*="value"] Selector</h2>
     <p>All element with <span><b>[class*="rd"]</b></span> class attribute value that contains "rd" get a plum background</p>
@@ -52,5 +71,15 @@
     <div class="third">The third div element.</div>
     <div class="my-test">The third div element.</div>
     <p class="mythird">This is some text in a paragraph.</p>
+
+    <hr>
+
+    <!-- Styling Forms -->
+    <h2>Styling Forms</h2>
+    <form name="input" action="#" method="get">
+        Firstname:<input type="text" name="Name" value="Peter" size="20">
+        Lastname:<input type="text" name="Name" value="Griffin" size="20">
+        <input type="button" value="Example Button">
+    </form>
 </body>
 </html>
