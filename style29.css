@@ -18,3 +18,7 @@ a[target] {
 a[target="_blank"] {
     background-color: lightblue;
 }
+
+[title~="flower"] {
+    border: 5px solid cyan;
+}
