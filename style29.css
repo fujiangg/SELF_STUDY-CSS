@@ -30,3 +30,7 @@ a[target="_blank"] {
 [class^="first"] {
     background-color: lightblue;
 }
+
+[class$="last"] {
+    background-color: blue;
+}
