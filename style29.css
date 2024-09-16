@@ -26,3 +26,7 @@ a[target="_blank"] {
 [class|="top"] {
     background-color: cyan;
 }
+
+[class^="first"] {
+    background-color: lightblue;
+}
