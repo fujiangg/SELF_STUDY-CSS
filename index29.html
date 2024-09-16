@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style29.css">
 </head>
 <body>
-    <h1>ATTRIBUTE SELECTORS</h1>
+    <h1 class="title">ATTRIBUTE SELECTORS</h1>
     <!-- [attribute] -->
     <h2>[attribute] Selector</h2>
     <p>The links with a <span><b>target</b></span> attribute gets a cyan background:</p>
@@ -22,10 +22,15 @@
     <a href="http://www.wikipedia.org/" target="_top">wikipedia.org</a>    
     <!-- [attribute!="value"] -->
     <h2>[attribute~="value"] Selector</h2>
-    <p>All images with <span><b>[title~="flower"]</b></span> the title attribute containing the word "flower" get a cyan border.</p>
+    <p>All images with <span><b>title~="flower"</b></span> the title attribute containing the word "flower" get a cyan border. Not hyphen (-)</p>
     <img src="klematis.jpg" title="klematis flower" width="180" height="150">
     <img src="img_flwr.gif" title="flower" width="224" height="150">
     <img src="img_tree.gif" title="tree" width="100" height="150">
-
+    <!-- [attribute|="value"] -->
+    <h2>[attribute|="value"] Selector</h2>
+    <p>All element with <span><b>class|="top"</b></span> the top attribute get a cyan background. The value can be exactly specified value, or specified value followed by a hypen (-)</p>
+    <h1 class="top-header">Welcome</h1>
+    <p class="top-text">Hello world!</p>
+    <p class="topcontent">Are you learning CSS?</p>
 </body>
 </html>
