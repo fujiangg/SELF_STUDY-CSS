@@ -6,6 +6,15 @@ h2 {
     background-color: yellow;
 }
 
+span {
+    background-color: lightyellow;
+    border: 1px solid black;
+}
+
 a[target] {
     background-color: cyan;
+}
+
+a[target="_blank"] {
+    background-color: lightblue;
 }
