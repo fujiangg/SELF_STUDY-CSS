@@ -34,3 +34,7 @@ a[target="_blank"] {
 [class$="last"] {
     background-color: blue;
 }
+
+[class*="rd"] {
+    background-color: plum;
+}
